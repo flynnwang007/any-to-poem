@@ -47,7 +47,7 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 // 静态文件服务
 app.use('/uploads', express.static('uploads'));
 
-// 路由
+// 路由 - 保持简洁配置
 app.use('/api/images', imageRoutes);
 app.use('/api/poetry', poetryRoutes);
 app.use('/api/users', userRoutes);

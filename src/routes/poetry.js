@@ -20,6 +20,16 @@ const upload = multer({
   }
 });
 
+// 健康检查
+router.get('/health', (req, res) => {
+  res.status(200).json({ 
+    status: 'OK', 
+    timestamp: new Date().toISOString(),
+    service: '万物可作诗 Poetry API',
+    message: '诗歌服务正常运行'
+  });
+});
+
 // 生成诗歌 - 添加文件上传中间件
 router.post('/generate', upload.single('image'), validatePoetryGeneration, poetryController.generatePoetry);
 
