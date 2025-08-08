@@ -1,0 +1,122 @@
+{"level":"info","message":"📦 MemfireDB 连接成功","timestamp":"2025-08-08 11:22:29"}
+{"level":"warn","message":"RPC方法不存在，尝试其他方式创建表:","timestamp":"2025-08-08 11:22:29"}
+{"level":"info","message":"🔄 数据库表结构初始化完成","timestamp":"2025-08-08 11:22:29"}
+{"level":"info","message":"🚀 万物可作诗 API 服务启动成功","timestamp":"2025-08-08 11:22:29"}
+{"level":"info","message":"📍 服务地址: http://localhost:3008","timestamp":"2025-08-08 11:22:29"}
+{"level":"info","message":"🔍 健康检查: http://localhost:3008/health","timestamp":"2025-08-08 11:22:29"}
+{"level":"info","message":"📦 MemfireDB 连接成功","timestamp":"2025-08-08 11:39:18"}
+{"level":"info","message":"📦 MemfireDB 连接成功","timestamp":"2025-08-08 11:39:18"}
+{"level":"info","message":"🚀 万物可作诗 API 服务启动成功","timestamp":"2025-08-08 11:39:18"}
+{"level":"info","message":"📍 服务地址: http://localhost:3008","timestamp":"2025-08-08 11:39:18"}
+{"level":"info","message":"🔍 健康检查: http://localhost:3008/health","timestamp":"2025-08-08 11:39:18"}
+{"level":"info","message":"开始使用豆包图片接口生成诗歌","timestamp":"2025-08-08 11:41:06"}
+{"imageType":"url","level":"info","message":"准备调用豆包API","style":"现代","timestamp":"2025-08-08 11:41:06"}
+{"level":"error","message":"图片诗歌生成失败:","timestamp":"2025-08-08 11:41:11"}
+{"level":"warn","message":"豆包API调用失败，使用模拟数据:","timestamp":"2025-08-08 11:41:11"}
+{"level":"info","message":"诗歌生成完成","poetryId":21,"processingTime":5285,"style":"现代","timestamp":"2025-08-08 11:41:11"}
+{"level":"info","message":"📦 MemfireDB 连接成功","timestamp":"2025-08-08 11:42:59"}
+{"level":"info","message":"📦 MemfireDB 连接成功","timestamp":"2025-08-08 11:42:59"}
+{"level":"info","message":"🚀 万物可作诗 API 服务启动成功","timestamp":"2025-08-08 11:42:59"}
+{"level":"info","message":"📍 服务地址: http://localhost:3008","timestamp":"2025-08-08 11:42:59"}
+{"level":"info","message":"🌐 网络地址: http://192.168.0.106:3008","timestamp":"2025-08-08 11:42:59"}
+{"level":"info","message":"🔍 健康检查: http://localhost:3008/health","timestamp":"2025-08-08 11:42:59"}
+{"level":"info","message":"📦 MemfireDB 连接成功","timestamp":"2025-08-08 11:49:33"}
+{"level":"info","message":"📦 MemfireDB 连接成功","timestamp":"2025-08-08 11:49:33"}
+{"level":"info","message":"🚀 万物可作诗 API 服务启动成功","timestamp":"2025-08-08 11:49:33"}
+{"level":"info","message":"📍 服务地址: http://localhost:3008","timestamp":"2025-08-08 11:49:33"}
+{"level":"info","message":"🌐 网络地址: http://192.168.0.106:3008","timestamp":"2025-08-08 11:49:33"}
+{"level":"info","message":"🔍 健康检查: http://localhost:3008/health","timestamp":"2025-08-08 11:49:33"}
+{"bufferLength":211545,"fieldname":"image","level":"info","message":"开始上传图片到OSS","mimetype":"image/jpeg","originalName":"1754132603-compressed-IMG_4154.JPG","size":211545,"timestamp":"2025-08-08 11:49:55"}
+{"filename":"poetry/1754624995166_92812090-e545-4c68-aa2d-99e2a78f6508.jpg","level":"info","message":"图片上传OSS成功","size":65917,"timestamp":"2025-08-08 11:49:55","url":"https://flynnwang-bucket.oss-cn-beijing.aliyuncs.com/poetry/1754624995166_92812090-e545-4c68-aa2d-99e2a78f6508.jpg"}
+{"level":"info","message":"图片上传OSS成功","timestamp":"2025-08-08 11:49:55","url":"https://flynnwang-bucket.oss-cn-beijing.aliyuncs.com/poetry/1754624995166_92812090-e545-4c68-aa2d-99e2a78f6508.jpg"}
+{"level":"info","message":"开始使用豆包图片接口生成诗歌","timestamp":"2025-08-08 11:49:55"}
+{"imageType":"url","level":"info","message":"准备调用豆包API","style":"古风","timestamp":"2025-08-08 11:49:55"}
+{"hasDescription":true,"level":"info","message":"图片诗歌生成成功","poetryLength":4,"style":"古风","timestamp":"2025-08-08 11:50:21"}
+{"level":"info","message":"诗歌生成完成","poetryId":22,"processingTime":26292,"style":"古风","timestamp":"2025-08-08 11:50:21"}
+{"bufferLength":211545,"fieldname":"image","level":"info","message":"开始上传图片到OSS","mimetype":"image/jpeg","originalName":"1754132603-compressed-IMG_4154.JPG","size":211545,"timestamp":"2025-08-08 12:05:22"}
+{"filename":"poetry/1754625922935_0ea753a3-6dfe-4b29-9e67-fb45a95c58f6.jpg","level":"info","message":"图片上传OSS成功","size":65917,"timestamp":"2025-08-08 12:05:23","url":"https://flynnwang-bucket.oss-cn-beijing.aliyuncs.com/poetry/1754625922935_0ea753a3-6dfe-4b29-9e67-fb45a95c58f6.jpg"}
+{"level":"info","message":"图片上传OSS成功","timestamp":"2025-08-08 12:05:23","url":"https://flynnwang-bucket.oss-cn-beijing.aliyuncs.com/poetry/1754625922935_0ea753a3-6dfe-4b29-9e67-fb45a95c58f6.jpg"}
+{"level":"info","message":"开始使用豆包图片接口生成诗歌","timestamp":"2025-08-08 12:05:23"}
+{"imageType":"url","level":"info","message":"准备调用豆包API","style":"古风","timestamp":"2025-08-08 12:05:23"}
+{"hasDescription":true,"level":"info","message":"图片诗歌生成成功","poetryLength":2,"style":"古风","timestamp":"2025-08-08 12:05:37"}
+{"level":"info","message":"诗歌生成完成","poetryId":23,"processingTime":14148,"style":"古风","timestamp":"2025-08-08 12:05:37"}
+{"level":"info","message":"📦 MemfireDB 连接成功","timestamp":"2025-08-08 12:15:12"}
+{"level":"info","message":"📦 MemfireDB 连接成功","timestamp":"2025-08-08 12:15:41"}
+{"bufferLength":211545,"fieldname":"image","level":"info","message":"开始上传图片到OSS","mimetype":"image/jpeg","originalName":"1754132603-compressed-IMG_4154.JPG","size":211545,"timestamp":"2025-08-08 12:16:06"}
+{"filename":"poetry/1754626566890_b3dea514-9c03-4144-8da9-39f70d2c5222.jpg","level":"info","message":"图片上传OSS成功","size":65917,"timestamp":"2025-08-08 12:16:07","url":"https://flynnwang-bucket.oss-cn-beijing.aliyuncs.com/poetry/1754626566890_b3dea514-9c03-4144-8da9-39f70d2c5222.jpg"}
+{"level":"info","message":"图片上传OSS成功","timestamp":"2025-08-08 12:16:07","url":"https://flynnwang-bucket.oss-cn-beijing.aliyuncs.com/poetry/1754626566890_b3dea514-9c03-4144-8da9-39f70d2c5222.jpg"}
+{"level":"info","message":"开始使用豆包图片接口生成诗歌","timestamp":"2025-08-08 12:16:07"}
+{"imageType":"url","level":"info","message":"准备调用豆包API","style":"古风","timestamp":"2025-08-08 12:16:07"}
+{"hasDescription":true,"level":"info","message":"图片诗歌生成成功","poetryLength":4,"style":"古风","timestamp":"2025-08-08 12:16:21"}
+{"level":"info","message":"诗歌生成完成","poetryId":24,"processingTime":14822,"style":"古风","timestamp":"2025-08-08 12:16:21"}
+{"level":"error","message":"豆包API密钥未配置","timestamp":"2025-08-08 12:27:05"}
+{"imageType":"url","level":"info","message":"准备调用豆包API","style":"古风","timestamp":"2025-08-08 12:27:05"}
+{"level":"error","message":"图片诗歌生成失败:","timestamp":"2025-08-08 12:27:05"}
+{"level":"info","message":"📦 MemfireDB 连接成功","timestamp":"2025-08-08 12:32:23"}
+{"bufferLength":211545,"fieldname":"image","level":"info","message":"开始上传图片到OSS","mimetype":"image/jpeg","originalName":"1754132603-compressed-IMG_4154.JPG","size":211545,"timestamp":"2025-08-08 12:32:58"}
+{"filename":"poetry/1754627578071_15111cae-635a-4b05-b1ce-48b0fff5daf6.jpg","level":"info","message":"图片上传OSS成功","size":65917,"timestamp":"2025-08-08 12:32:58","url":"https://flynnwang-bucket.oss-cn-beijing.aliyuncs.com/poetry/1754627578071_15111cae-635a-4b05-b1ce-48b0fff5daf6.jpg"}
+{"level":"info","message":"图片上传OSS成功","timestamp":"2025-08-08 12:32:58","url":"https://flynnwang-bucket.oss-cn-beijing.aliyuncs.com/poetry/1754627578071_15111cae-635a-4b05-b1ce-48b0fff5daf6.jpg"}
+{"level":"info","message":"开始使用豆包图片接口生成诗歌","timestamp":"2025-08-08 12:32:58"}
+{"imageType":"url","level":"info","message":"准备调用豆包API","style":"古风","timestamp":"2025-08-08 12:32:58"}
+{"hasDescription":true,"level":"info","message":"图片诗歌生成成功","poetryLength":4,"style":"古风","timestamp":"2025-08-08 12:33:22"}
+{"level":"info","message":"诗歌生成完成","poetryId":25,"processingTime":24074,"style":"古风","timestamp":"2025-08-08 12:33:22"}
+{"level":"info","message":"📦 MemfireDB 连接成功","timestamp":"2025-08-08 12:36:38"}
+{"level":"info","message":"📦 MemfireDB 连接成功","timestamp":"2025-08-08 12:36:38"}
+{"level":"info","message":"🚀 万物可作诗 API 服务启动成功","timestamp":"2025-08-08 12:36:38"}
+{"level":"info","message":"📍 服务地址: http://localhost:3008","timestamp":"2025-08-08 12:36:38"}
+{"level":"info","message":"🌐 网络地址: http://192.168.0.106:3008","timestamp":"2025-08-08 12:36:38"}
+{"level":"info","message":"🔍 健康检查: http://localhost:3008/health","timestamp":"2025-08-08 12:36:38"}
+{"bufferLength":211545,"fieldname":"image","level":"info","message":"开始上传图片到OSS","mimetype":"image/jpeg","originalName":"1754132603-compressed-IMG_4154.JPG","size":211545,"timestamp":"2025-08-08 12:36:58"}
+{"filename":"poetry/1754627818355_18f551cd-f0b4-4822-abe2-b87aa515499f.jpg","level":"info","message":"图片上传OSS成功","size":65917,"timestamp":"2025-08-08 12:36:58","url":"https://flynnwang-bucket.oss-cn-beijing.aliyuncs.com/poetry/1754627818355_18f551cd-f0b4-4822-abe2-b87aa515499f.jpg"}
+{"level":"info","message":"图片上传OSS成功","timestamp":"2025-08-08 12:36:58","url":"https://flynnwang-bucket.oss-cn-beijing.aliyuncs.com/poetry/1754627818355_18f551cd-f0b4-4822-abe2-b87aa515499f.jpg"}
+{"level":"info","message":"开始使用豆包图片接口生成诗歌","timestamp":"2025-08-08 12:36:58"}
+{"imageType":"url","level":"info","message":"准备调用豆包API","style":"古风","timestamp":"2025-08-08 12:36:58"}
+{"contentLength":230,"level":"info","message":"豆包API返回原始内容:","rawContent":"**图片描述：**\n室内，穿印卡通熊黑T恤的小男孩比“V”微笑，桌前摆米饭、橙筷、盛物玻璃杯，满溢生活暖意。\n\n**诗歌：**\n《童趣餐时》\n童颜笑对餐间趣，黑袂熊纹映暖光。\n橙箸斜依香米饭，玻璃杯里玉条凉。\n居家一室温情漫，稚语清欢岁月长。\n最是童真堪入画，眸光熠熠韵悠长。\n\n**分析：**\n色彩上黑衣、橙筷形成明快对比，暖光烘托温馨氛围；构图以孩童为中心、餐食环绕，呈现日常居家烟火气；意境捕捉童真快乐与生活温情，于平凡场景中挖掘诗意，尽显岁月静好之态。","style":"古风","timestamp":"2025-08-08 12:37:27"}
+{"level":"info","message":"开始解析豆包返回结果:","resultLength":230,"timestamp":"2025-08-08 12:37:27"}
+{"imageDescription":"室内，穿印卡通熊黑T恤的小男孩比“V”微笑，桌前摆米饭、橙筷、盛物玻璃杯，满溢生活暖意。","level":"info","message":"提取的图片描述:","timestamp":"2025-08-08 12:37:27"}
+{"level":"info","message":"提取的诗歌内容:","poetry":"《童趣餐时》\n童颜笑对餐间趣，黑袂熊纹映暖光。\n橙箸斜依香米饭，玻璃杯里玉条凉。\n居家一室温情漫，稚语清欢岁月长。\n最是童真堪入画，眸光熠熠韵悠长。","timestamp":"2025-08-08 12:37:27"}
+{"level":"info","message":"提取的标题:","timestamp":"2025-08-08 12:37:27","title":"《童趣餐时》"}
+{"hasDescription":true,"level":"info","message":"图片诗歌生成成功","poetryContent":["童颜笑对餐间趣，黑袂熊纹映暖光。","橙箸斜依香米饭，玻璃杯里玉条凉。","居家一室温情漫，稚语清欢岁月长。","最是童真堪入画，眸光熠熠韵悠长。"],"poetryLength":4,"style":"古风","timestamp":"2025-08-08 12:37:27","title":"《童趣餐时》"}
+{"level":"info","message":"诗歌生成完成","poetryContent":["童颜笑对餐间趣，黑袂熊纹映暖光。","橙箸斜依香米饭，玻璃杯里玉条凉。","居家一室温情漫，稚语清欢岁月长。","最是童真堪入画，眸光熠熠韵悠长。"],"poetryId":26,"processingTime":29319,"style":"古风","timestamp":"2025-08-08 12:37:27","title":"《童趣餐时》"}
+{"level":"info","message":"📦 MemfireDB 连接成功","timestamp":"2025-08-08 13:20:36"}
+{"level":"info","message":"📦 MemfireDB 连接成功","timestamp":"2025-08-08 13:20:36"}
+{"level":"info","message":"🚀 万物可作诗 API 服务启动成功","timestamp":"2025-08-08 13:20:36"}
+{"level":"info","message":"📍 服务地址: http://localhost:3008","timestamp":"2025-08-08 13:20:36"}
+{"level":"info","message":"🌐 网络地址: http://192.168.0.106:3008","timestamp":"2025-08-08 13:20:36"}
+{"level":"info","message":"🔍 健康检查: http://localhost:3008/health","timestamp":"2025-08-08 13:20:36"}
+{"bufferLength":211545,"fieldname":"image","level":"info","message":"开始上传图片到OSS","mimetype":"image/jpeg","originalName":"1754132603-compressed-IMG_4154.JPG","size":211545,"timestamp":"2025-08-08 13:20:52"}
+{"filename":"poetry/1754630452896_9495c088-af7a-4cf5-bad0-7d68cd3c1d7c.jpg","level":"info","message":"图片上传OSS成功","size":65917,"timestamp":"2025-08-08 13:20:53","url":"https://flynnwang-bucket.oss-cn-beijing.aliyuncs.com/poetry/1754630452896_9495c088-af7a-4cf5-bad0-7d68cd3c1d7c.jpg"}
+{"level":"info","message":"图片上传OSS成功","timestamp":"2025-08-08 13:20:53","url":"https://flynnwang-bucket.oss-cn-beijing.aliyuncs.com/poetry/1754630452896_9495c088-af7a-4cf5-bad0-7d68cd3c1d7c.jpg"}
+{"level":"info","message":"开始使用豆包图片接口生成诗歌","timestamp":"2025-08-08 13:20:53"}
+{"imageType":"url","level":"info","message":"准备调用豆包API","style":"古风","timestamp":"2025-08-08 13:20:53"}
+{"contentLength":236,"level":"info","message":"豆包API返回原始内容:","rawContent":"**图片描述：**\n室内场景里，男孩穿黑T恤比“V”笑，桌上有玻璃杯盛物、白米饭与红筷，背景可见家具、扫帚。\n\n**诗歌：**\n《童乐餐时》  \n稚子欣然举玉枝，餐间笑意韵成诗。  \n晶杯映物光如练，红箸分香饭似脂。  \n室里温馨浮暖绪，心中喜乐入新词。  \n童真最是无忧处，一抹清欢入画帷。  \n\n**分析：**  \n色彩上黑衫与红筷形成视觉反差，暖调光线烘托温馨；构图以孩童为核心，餐食近景、家居背景层次分明；意境聚焦日常餐时的童真快乐，将生活温情凝于诗行，亲切动人。","style":"古风","timestamp":"2025-08-08 13:21:15"}
+{"level":"info","message":"开始解析豆包返回结果:","resultLength":236,"timestamp":"2025-08-08 13:21:15"}
+{"imageDescription":"室内场景里，男孩穿黑T恤比“V”笑，桌上有玻璃杯盛物、白米饭与红筷，背景可见家具、扫帚。","level":"info","message":"提取的图片描述:","timestamp":"2025-08-08 13:21:15"}
+{"level":"info","message":"提取的诗歌内容:","poetry":"《童乐餐时》  \n稚子欣然举玉枝，餐间笑意韵成诗。  \n晶杯映物光如练，红箸分香饭似脂。  \n室里温馨浮暖绪，心中喜乐入新词。  \n童真最是无忧处，一抹清欢入画帷。","timestamp":"2025-08-08 13:21:15"}
+{"level":"info","message":"提取的标题:","timestamp":"2025-08-08 13:21:15","title":"《童乐餐时》"}
+{"hasDescription":true,"level":"info","message":"图片诗歌生成成功","poetryContent":["稚子欣然举玉枝，餐间笑意韵成诗。  ","晶杯映物光如练，红箸分香饭似脂。  ","室里温馨浮暖绪，心中喜乐入新词。  ","童真最是无忧处，一抹清欢入画帷。"],"poetryLength":4,"style":"古风","timestamp":"2025-08-08 13:21:15","title":"《童乐餐时》"}
+{"level":"info","message":"诗歌生成完成","poetryContent":["稚子欣然举玉枝，餐间笑意韵成诗。  ","晶杯映物光如练，红箸分香饭似脂。  ","室里温馨浮暖绪，心中喜乐入新词。  ","童真最是无忧处，一抹清欢入画帷。"],"poetryId":27,"processingTime":22437,"style":"古风","timestamp":"2025-08-08 13:21:15","title":"《童乐餐时》"}
+{"bufferLength":24786,"fieldname":"image","level":"info","message":"开始上传图片到OSS","mimetype":"image/png","originalName":"1753260300-compressed-IMG_4138.PNG","size":24786,"timestamp":"2025-08-08 13:33:34"}
+{"filename":"poetry/1754631214242_fd722cdb-e6b8-4202-89de-c623a3a792fb.jpg","level":"info","message":"图片上传OSS成功","size":22129,"timestamp":"2025-08-08 13:33:34","url":"https://flynnwang-bucket.oss-cn-beijing.aliyuncs.com/poetry/1754631214242_fd722cdb-e6b8-4202-89de-c623a3a792fb.jpg"}
+{"level":"info","message":"图片上传OSS成功","timestamp":"2025-08-08 13:33:34","url":"https://flynnwang-bucket.oss-cn-beijing.aliyuncs.com/poetry/1754631214242_fd722cdb-e6b8-4202-89de-c623a3a792fb.jpg"}
+{"level":"info","message":"开始使用豆包图片接口生成诗歌","timestamp":"2025-08-08 13:33:34"}
+{"imageType":"url","level":"info","message":"准备调用豆包API","style":"古风","timestamp":"2025-08-08 13:33:34"}
+{"contentLength":207,"level":"info","message":"豆包API返回原始内容:","rawContent":"**图片描述：**\n蓝白色调简历，分四块区域，左上含照片与联络信息，右上列教育、工作经历，左下有“关于我”等，右下展技能，布局规整。\n\n**诗歌：**\n《简册述怀》\n蓝笺裁素意，分域记行藏。\n学路时年叙，职场履历彰。\n寸心凝技谱，片语诉衷长。\n欲赴青云约，风前试志章。\n\n**分析：**\n色彩蓝白搭配简洁明快；构图板块分明，信息条理清晰；意境似古今交融，以现代简历载求职抱负，严谨中蕴进取之心，如士人持简策陈才志。","style":"古风","timestamp":"2025-08-08 13:33:48"}
+{"level":"info","message":"开始解析豆包返回结果:","resultLength":207,"timestamp":"2025-08-08 13:33:48"}
+{"imageDescription":"蓝白色调简历，分四块区域，左上含照片与联络信息，右上列教育、工作经历，左下有“关于我”等，右下展技能，布局规整。","level":"info","message":"提取的图片描述:","timestamp":"2025-08-08 13:33:48"}
+{"level":"info","message":"提取的诗歌内容:","poetry":"《简册述怀》\n蓝笺裁素意，分域记行藏。\n学路时年叙，职场履历彰。\n寸心凝技谱，片语诉衷长。\n欲赴青云约，风前试志章。","timestamp":"2025-08-08 13:33:48"}
+{"level":"info","message":"提取的标题:","timestamp":"2025-08-08 13:33:48","title":"《简册述怀》"}
+{"hasDescription":true,"level":"info","message":"图片诗歌生成成功","poetryContent":["蓝笺裁素意，分域记行藏。","学路时年叙，职场履历彰。","寸心凝技谱，片语诉衷长。","欲赴青云约，风前试志章。"],"poetryLength":4,"style":"古风","timestamp":"2025-08-08 13:33:48","title":"《简册述怀》"}
+{"level":"info","message":"诗歌生成完成","poetryContent":["蓝笺裁素意，分域记行藏。","学路时年叙，职场履历彰。","寸心凝技谱，片语诉衷长。","欲赴青云约，风前试志章。"],"poetryId":28,"processingTime":13874,"style":"古风","timestamp":"2025-08-08 13:33:48","title":"《简册述怀》"}
+{"bufferLength":152153,"fieldname":"image","level":"info","message":"开始上传图片到OSS","mimetype":"image/jpeg","originalName":"1465463937-compressed-246B9BDC-B10E-4C87-B143-06A138A668E1.JPG","size":152153,"timestamp":"2025-08-08 13:42:11"}
+{"filename":"poetry/1754631731505_37274920-7eaa-4880-98fb-d25ec5da7362.jpg","level":"info","message":"图片上传OSS成功","size":124959,"timestamp":"2025-08-08 13:42:11","url":"https://flynnwang-bucket.oss-cn-beijing.aliyuncs.com/poetry/1754631731505_37274920-7eaa-4880-98fb-d25ec5da7362.jpg"}
+{"level":"info","message":"图片上传OSS成功","timestamp":"2025-08-08 13:42:11","url":"https://flynnwang-bucket.oss-cn-beijing.aliyuncs.com/poetry/1754631731505_37274920-7eaa-4880-98fb-d25ec5da7362.jpg"}
+{"level":"info","message":"开始使用豆包图片接口生成诗歌","timestamp":"2025-08-08 13:42:11"}
+{"imageType":"url","level":"info","message":"准备调用豆包API","style":"古风","timestamp":"2025-08-08 13:42:11"}
+{"contentLength":202,"level":"info","message":"豆包API返回原始内容:","rawContent":"**图片描述：**\n户外草地边，两人穿白衫，一人举红罐王老吉，另一人比噤声手势，背景树木错落，氛围轻松。\n\n**诗歌：**\n《郊野同游趣》\n郊野晴光暖，青芜绕树生。\n红罐添佳兴，白衫映笑声。\n悄将唇上指，莫把语儿轻。\n风过林阴处，闲情伴友行。\n\n**分析：**\n色彩上白衫清新、红罐艳丽与绿色草地形成明快对比；构图聚焦人物互动，背景树木点缀营造自然氛围，整体意境闲适活泼，传递出友人同游时的轻松亲昵之感。","style":"古风","timestamp":"2025-08-08 13:42:32"}
+{"level":"info","message":"开始解析豆包返回结果:","resultLength":202,"timestamp":"2025-08-08 13:42:32"}
+{"imageDescription":"户外草地边，两人穿白衫，一人举红罐王老吉，另一人比噤声手势，背景树木错落，氛围轻松。","level":"info","message":"提取的图片描述:","timestamp":"2025-08-08 13:42:32"}
+{"level":"info","message":"提取的诗歌内容:","poetry":"《郊野同游趣》\n郊野晴光暖，青芜绕树生。\n红罐添佳兴，白衫映笑声。\n悄将唇上指，莫把语儿轻。\n风过林阴处，闲情伴友行。","timestamp":"2025-08-08 13:42:32"}
+{"level":"info","message":"提取的标题:","timestamp":"2025-08-08 13:42:32","title":"《郊野同游趣》"}
+{"hasDescription":true,"level":"info","message":"图片诗歌生成成功","poetryContent":["郊野晴光暖，青芜绕树生。","红罐添佳兴，白衫映笑声。","悄将唇上指，莫把语儿轻。","风过林阴处，闲情伴友行。"],"poetryLength":4,"style":"古风","timestamp":"2025-08-08 13:42:32","title":"《郊野同游趣》"}
+{"level":"info","message":"诗歌生成完成","poetryContent":["郊野晴光暖，青芜绕树生。","红罐添佳兴，白衫映笑声。","悄将唇上指，莫把语儿轻。","风过林阴处，闲情伴友行。"],"poetryId":29,"processingTime":20925,"style":"古风","timestamp":"2025-08-08 13:42:32","title":"《郊野同游趣》"}
