@@ -290,6 +290,68 @@ class PoetryController {
   }
 
   /**
+   * 获取历史记录
+   * GET /api/poetry/history
+   */
+  async getHistory(req, res) {
+    try {
+      const { 
+        page = 1, 
+        limit = 20, 
+        userId 
+      } = req.query;
+      
+      const query = {};
+      
+      // 如果有用户ID，按用户过滤
+      if (userId) {
+        query.userId = userId;
+      }
+      
+      const options = {
+        sort: { createdAt: -1 }, // 按创建时间倒序
+        limit: parseInt(limit),
+        offset: (parseInt(page) - 1) * parseInt(limit)
+      };
+      
+      const [poems, total] = await Promise.all([
+        Poetry.find(query, options),
+        Poetry.count(query)
+      ]);
+      
+      // 转换为前端需要的格式
+      const historyData = poems.map(poem => ({
+        id: poem.id,
+        title: poem.poetry?.title || '创作诗歌',
+        content: poem.poetry?.content || [],
+        style: poem.poetry?.style || '现代',
+        imageUrl: poem.image?.url || '',
+        imageAnalysis: poem.imageRecognition?.description || '',
+        inspiration: poem.imageRecognition?.analysis || '',
+        createdAt: poem.createdAt,
+        aiGenerated: true
+      }));
+      
+      res.json({
+        success: true,
+        data: {
+          history: historyData,
+          pagination: {
+            page: parseInt(page),
+            limit: parseInt(limit),
+            total,
+            pages: Math.ceil(total / parseInt(limit))
+          }
+        }
+      });
+      
+    } catch (error) {
+      logger.error('获取历史记录失败:', error);
+      res.status(500).json({ error: '获取历史记录失败' });
+    }
+  }
+
+  /**
    * 获取单首诗歌详情
    * GET /api/poetry/:id
    */

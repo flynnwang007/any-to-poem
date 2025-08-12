@@ -33,14 +33,17 @@ router.get('/health', (req, res) => {
 // 生成诗歌 - 添加文件上传中间件
 router.post('/generate', upload.single('image'), validatePoetryGeneration, poetryController.generatePoetry);
 
-// 获取诗歌列表
-router.get('/', poetryController.getPoetryList);
+// 获取历史记录
+router.get('/history', poetryController.getHistory);
 
 // 获取热门诗歌
 router.get('/popular', poetryController.getPopularPoetry);
 
 // 获取统计信息
 router.get('/stats', poetryController.getStats);
+
+// 获取诗歌列表
+router.get('/', poetryController.getPoetryList);
 
 // 获取单首诗歌详情
 router.get('/:id', poetryController.getPoetryById);
