@@ -527,6 +527,139 @@ class PoetryController {
       res.status(500).json({ error: '删除诗歌失败' });
     }
   }
+
+  /**
+   * 添加收藏
+   * POST /api/poetry/:id/favorite
+   */
+  async addFavorite(req, res) {
+    try {
+      const { id } = req.params;
+      const { userId } = req.body;
+      
+      const poetry = await Poetry.findById(id);
+      
+      if (!poetry) {
+        return res.status(404).json({ error: '诗歌不存在' });
+      }
+      
+      // 添加到收藏表（这里简化处理，直接更新诗歌的收藏状态）
+      poetry.feedback = { 
+        ...poetry.feedback, 
+        isFavorited: true 
+      };
+      
+      await poetry.save();
+      
+      res.json({
+        success: true,
+        message: '收藏成功'
+      });
+      
+    } catch (error) {
+      logger.error('添加收藏失败:', error);
+      res.status(500).json({ error: '添加收藏失败' });
+    }
+  }
+
+  /**
+   * 取消收藏
+   * DELETE /api/poetry/:id/favorite
+   */
+  async removeFavorite(req, res) {
+    try {
+      const { id } = req.params;
+      const { userId } = req.body;
+      
+      const poetry = await Poetry.findById(id);
+      
+      if (!poetry) {
+        return res.status(404).json({ error: '诗歌不存在' });
+      }
+      
+      // 取消收藏
+      poetry.feedback = { 
+        ...poetry.feedback, 
+        isFavorited: false 
+      };
+      
+      await poetry.save();
+      
+      res.json({
+        success: true,
+        message: '取消收藏成功'
+      });
+      
+    } catch (error) {
+      logger.error('取消收藏失败:', error);
+      res.status(500).json({ error: '取消收藏失败' });
+    }
+  }
+
+  /**
+   * 获取收藏列表
+   * GET /api/poetry/favorites
+   */
+  async getFavorites(req, res) {
+    try {
+      const { 
+        page = 1, 
+        limit = 20, 
+        userId 
+      } = req.query;
+      
+      const query = {
+        'feedback.isFavorited': true
+      };
+      
+      // 如果有用户ID，按用户过滤
+      if (userId) {
+        query.userId = userId;
+      }
+      
+      const options = {
+        sort: { createdAt: -1 },
+        limit: parseInt(limit),
+        offset: (parseInt(page) - 1) * parseInt(limit)
+      };
+      
+      const [poems, total] = await Promise.all([
+        Poetry.find(query, options),
+        Poetry.count(query)
+      ]);
+      
+      // 转换为前端需要的格式
+      const favoritesData = poems.map(poem => ({
+        id: poem.id,
+        title: poem.poetry?.title || '创作诗歌',
+        content: poem.poetry?.content || [],
+        style: poem.poetry?.style || '现代',
+        imageUrl: poem.image?.url || '',
+        imageAnalysis: poem.imageRecognition?.description || '',
+        inspiration: poem.imageRecognition?.analysis || '',
+        createdAt: poem.createdAt,
+        aiGenerated: true,
+        isFavorited: true
+      }));
+      
+      res.json({
+        success: true,
+        data: {
+          favorites: favoritesData,
+          pagination: {
+            page: parseInt(page),
+            limit: parseInt(limit),
+            total,
+            pages: Math.ceil(total / parseInt(limit))
+          }
+        }
+      });
+      
+    } catch (error) {
+      logger.error('获取收藏列表失败:', error);
+      res.status(500).json({ error: '获取收藏列表失败' });
+    }
+  }
 }
 
 module.exports = new PoetryController(); 

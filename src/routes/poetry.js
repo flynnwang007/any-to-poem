@@ -57,4 +57,9 @@ router.post('/:id/share', poetryController.sharePoetry);
 // 删除诗歌
 router.delete('/:id', poetryController.deletePoetry);
 
+// 收藏相关接口
+router.post('/:id/favorite', poetryController.addFavorite);
+router.delete('/:id/favorite', poetryController.removeFavorite);
+router.get('/favorites', poetryController.getFavorites);
+
 module.exports = router; 
